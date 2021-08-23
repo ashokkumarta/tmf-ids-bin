@@ -1,0 +1,3 @@
+cd ~/ids/git/tmf-ids-test/connectors/RAN-SHARE-UC-SLOW
+sudo ./csp.sh 1> ../logs/csp.log 2> ../logs/csp.err &
+tail -f ../logs/csp.log

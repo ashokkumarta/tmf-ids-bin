@@ -1,0 +1,3 @@
+cd ~/ids/git/tmf-ids-test/connectors/RAN-SHARE-UC-SLOW
+sudo ./mno2.sh 1> ../logs/mno-2.log 2> ../logs/mno-2.err &
+tail -f ../logs/mno-2.log

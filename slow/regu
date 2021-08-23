@@ -1,0 +1,3 @@
+cd ~/ids/git/tmf-ids-test/connectors/RAN-SHARE-UC-SLOW
+sudo ./regu.sh 1> ../logs/ran-regulator.log 2> ../logs/ran-regulator.err &
+tail -f ../logs/ran-regulator.log

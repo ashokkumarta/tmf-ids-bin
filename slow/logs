@@ -1,0 +1,4 @@
+export LOGIO_SERVER_CONFIG_PATH="/home/azureuser/ids/git/tmf-ids-logs/server.json"
+export LOGIO_FILE_INPUT_CONFIG_PATH="/home/azureuser/ids/git/tmf-ids-logs/inputs/file.json"
+log.io-server &
+log.io-file-input &
