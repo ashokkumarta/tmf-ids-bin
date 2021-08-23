@@ -1,14 +1,22 @@
 # tmf-ids-bin
 
-1. Install server via npm
+1. Start Regulator IDS instance
 
-npm install -g log.io
+./regu
 
-2. Install file input via npm
+2. Start CSP IDS instance
 
-npm install -g log.io-file-input
+./csp
 
-3. Start logs monitoring
+3. Start MNO-1 IDS instance
 
-.../tmf-ids-bin/logs
+./mno1
+
+4. Start MNO-2 IDS instance
+
+./mno2
+
+5. Start logs monitoring
+
+./logs
 
