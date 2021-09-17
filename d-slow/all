@@ -1,0 +1,8 @@
+./regu &
+sleep 101
+./mno1 &
+sleep 90
+./mno2 &
+sleep 90
+./csp &
+sleep 90
